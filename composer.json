@@ -1,0 +1,19 @@
+{
+  "name": "dataground/simplepgp",
+  "description": "Pure PHP simple PGP decryption",
+  "type": "library",
+  "require": {
+    "singpolyma/openpgp-php": "^0.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "Dataground": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Dataground",
+      "email": "info@dataground.com"
+    }
+  ]
+}
