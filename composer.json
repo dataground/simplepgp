@@ -3,7 +3,7 @@
   "description": "Pure PHP simple PGP decryption",
   "type": "library",
   "require": {
-    "singpolyma/openpgp-php": "^0.3"
+    "singpolyma/openpgp-php": "^0.7"
   },
   "autoload": {
     "psr-0": {
