@@ -9,11 +9,5 @@
     "psr-0": {
       "Dataground": "src/"
     }
-  },
-  "authors": [
-    {
-      "name": "Dataground",
-      "email": "info@dataground.com"
-    }
-  ]
+  }
 }

@@ -18,7 +18,7 @@ class SimplePgp
      * @param $armoredPrivateKeyContent
      * @param $privateKeyPassPhrase
      *
-     * @return NULL|OpenPGP_SecretKeyPacket
+     * @return OpenPGP_SecretKeyPacket|null
      */
     private function decryptPrivateKey($armoredPrivateKeyContent, $privateKeyPassPhrase)
     {
@@ -47,7 +47,7 @@ class SimplePgp
      * @param $armoredPrivateKeyContent
      * @param $privateKeyPassPhrase
      *
-     * @return NULL|string
+     * @return string|null
      */
     public function decrypt($contentBase64, $armoredPrivateKeyContent, $privateKeyPassPhrase)
     {
