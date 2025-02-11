@@ -1,6 +1,7 @@
 {
   "name": "dataground/simplepgp",
   "description": "Pure PHP simple PGP decryption",
+  "license": "MIT",
   "type": "library",
   "require": {
     "singpolyma/openpgp-php": "^0.7"
